@@ -39,9 +39,14 @@ make
 type julia from terminal
 
 julia> import Pkg; Pkg.add("StatsBase")
+
 julia> import Pkg; Pkg.add("ArgParse")
+
 julia> import Pkg; Pkg.add("GLMNet")
+
 julia> import Pkg; Pkg.add("SharedArrays")
+
+
 
 
 3.Download finet
