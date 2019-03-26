@@ -19,6 +19,8 @@ git checkout v1.0.3
 
 make
 
+
+
 Upgrade from old version
 
 cd /path/to/julia
@@ -30,6 +32,8 @@ git checkout v1.0.3
 make
 
 
+
+
 2) Install packages
 
 type julia from terminal
@@ -39,9 +43,13 @@ julia> import Pkg; Pkg.add("ArgParse")
 julia> import Pkg; Pkg.add("GLMNet")
 julia> import Pkg; Pkg.add("SharedArrays")
 
+
+
 3)Download finet
+
 git clone https://github.com/anyouwang/finet.git
 cd finet
+
 
 Running finet
 
@@ -55,10 +63,10 @@ For help
 
 julia finet.jl --help
 
-
 usage: finet.jl [-c CPUS] [-n ITERATION] [-m SUBSAMPLING]
                         [-k KFOLDS] [-a ALPHA] [-p PERCENTCUTOFF]
                         [-i I] -o O [-h]
+
 
 
 
