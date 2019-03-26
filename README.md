@@ -7,7 +7,7 @@ Any comments, please contact anyou dot wang dot 2012 at google mail
 
 Install
 
-1) Installing julia or upgrade julia to the latest version
+1.Installing julia or upgrade julia to the latest version
 
 Install new julia
 
@@ -34,7 +34,7 @@ make
 
 
 
-2) Install packages
+2.Install packages
 
 type julia from terminal
 
@@ -44,8 +44,7 @@ julia> import Pkg; Pkg.add("GLMNet")
 julia> import Pkg; Pkg.add("SharedArrays")
 
 
-
-3)Download finet
+3.Download finet
 
 git clone https://github.com/anyouwang/finet.git
 cd finet
