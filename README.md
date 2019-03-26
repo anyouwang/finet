@@ -47,6 +47,7 @@ julia> import Pkg; Pkg.add("SharedArrays")
 3.Download finet
 
 git clone https://github.com/anyouwang/finet.git
+
 cd finet
 
 
