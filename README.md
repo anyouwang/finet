@@ -43,11 +43,14 @@ julia finet.jl -c 40 -k 3 -n 300 -m 4 -a 0.5 -p 0.95 -i mydata.txt -o mynetwork
 For help
 julia finet.jl --help
 
+
 usage: finet.jl [-c CPUS] [-n ITERATION] [-m SUBSAMPLING]
                         [-k KFOLDS] [-a ALPHA] [-p PERCENTCUTOFF]
                         [-i I] -o O [-h]
 
+
 arguments:
+
   -c, --cpus CPUS       CPU number for parallel computation (type:
                         Int64, default: 8)
                         
