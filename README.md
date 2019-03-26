@@ -38,15 +38,18 @@ Running finet
 Only input file and output name are required. Other arguments as optional. Any question type --help as shown below
 
 an example of running
+
 julia finet.jl -c 40 -k 3 -n 300 -m 4 -a 0.5 -p 0.95 -i mydata.txt -o mynetwork  
 
 For help
+
 julia finet.jl --help
 
 
 usage: finet.jl [-c CPUS] [-n ITERATION] [-m SUBSAMPLING]
                         [-k KFOLDS] [-a ALPHA] [-p PERCENTCUTOFF]
                         [-i I] -o O [-h]
+
 
 
 arguments:
