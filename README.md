@@ -1,1 +1,2 @@
-# finet
+# FINET: Fast Inferring NETwork 
+FINET is a software to infer any network. Implemented by Julia with algorithms of stability selection and elastic-net, plus parameter optimization, finet can infer a network fast and accurately from a big data. Additionally, finet is user-friendly, only one single command line to complete all computational processes. Installing finet becomes simple. Please follow instructions shown in the doc. 
