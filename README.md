@@ -10,6 +10,7 @@ Install
 1) Installing julia or upgrade julia to the latest version
 
 Install new julia
+
 git clone git://github.com/JuliaLang/julia.git
 cd julia
 git checkout v1.0.3
@@ -22,6 +23,7 @@ git checkout v1.0.3
 make
 
 2) Install packages
+
 type julia from terminal
 
 julia> import Pkg; Pkg.add("StatsBase")
