@@ -12,15 +12,23 @@ Install
 Install new julia
 
 git clone git://github.com/JuliaLang/julia.git
+
 cd julia
+
 git checkout v1.0.3
+
 make
 
 Upgrade from old version
+
 cd /path/to/julia
+
 git pull
+
 git checkout v1.0.3
+
 make
+
 
 2) Install packages
 
