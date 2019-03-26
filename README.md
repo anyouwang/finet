@@ -50,22 +50,31 @@ usage: finet.jl [-c CPUS] [-n ITERATION] [-m SUBSAMPLING]
 arguments:
   -c, --cpus CPUS       CPU number for parallel computation (type:
                         Int64, default: 8)
+                        
   -n, --iteration ITERATION
-                        Iteration times (type: Int64, default: 100)
+                          Iteration times (type: Int64, default: 100)
+                        
   -m, --subsampling SUBSAMPLING
                         Numbers of subgroups, subsampling for
                         stablility selection, pleaase keep default for
                         most users (type: Int64, default: 2)
+                        
   -k, --kfolds KFOLDS   K-fold cross validation for Elastic net (type:
                         Int64, default: 5)
+                        
   -a, --alpha ALPHA     alpha value (0<alpha <=1.0) for Elastic net
                         (type: Float64, default: 0.5)
+                        
   -p, --percentcutoff PERCENTCUTOFF
-                        Ranking frequency percentage for cutoff (0-1)
+                          Ranking frequency percentage for cutoff (0-1)
                         (type: Float64, default: 0.9)
+                        
   -i I                  Input file name, required
+  
   -o O                  Output file name, required
+  
   -h, --help            show this help message and exit
+  
 
 
 
