@@ -6,11 +6,11 @@ FINET is a software to infer any network. Implemented by Julia with algorithms o
 
 Any comments, please contact anyou dot wang dot 2012 at google mail
 
-Install
+<H3>Install</H3>
 
 1.Installing julia or upgrade julia to the latest version
 
-Install new julia
+<H4>Install new julia</H4>
 
 git clone git://github.com/JuliaLang/julia.git
 
@@ -35,7 +35,7 @@ make
 
 
 
-2.Install packages
+<H4>2.Install packages</H4>
 
 type julia from terminal
 
@@ -50,14 +50,14 @@ julia> import Pkg; Pkg.add("SharedArrays")
 
 
 
-3.Download finet
+<H4>3.Download finet</H4>
 
 git clone https://github.com/anyouwang/finet.git
 
 cd finet
 
 
-Running finet
+<H3>Running finet</H3>
 
 Only input file and output name are required. Other arguments as optional. Any question type --help as shown below
 
@@ -65,7 +65,7 @@ an example of running
 
 julia finet.jl -c 40 -k 3 -n 300 -m 4 -a 0.5 -p 0.95 -i mydata.txt -o mynetwork  
 
-For help
+<H3>For help</H3>
 
 julia finet.jl --help
 
