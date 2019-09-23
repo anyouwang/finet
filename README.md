@@ -67,7 +67,7 @@ julia finet.jl -c 40 -k 5 -n 300 -m 8 -a 0.5 -p 0.95 -i mydata.txt -o mynetwork
 
 An input file is a normalized matrix, with each column as a gene and a row as an observation
 
-<H2>Please note: without stability-selection, elastic-net produced mostly noise. Increasing m value (e.g. m=8) and p (e.g. 0.95) will dramatically improve selection true positive ratio (true positives/total true callings), yet increasing iterations to a large number like 10000 does not help much as shown in our report (1) <H2>. 
+<H3>Please note: without stability-selection, elastic-net produced mostly noise. Increasing m value (e.g. m=8) and p (e.g. 0.95) dramatically improves selection true positive ratio (true positives/total true callings), yet increasing iterations (n value) to a large number like 10000 does not help much as shown in our report (1) </H3>. 
 
 <H2>For help</H2>
 
